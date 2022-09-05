@@ -35,22 +35,22 @@ export default function Web() {
             </div>
             <div className='row'>
               <div className='col-12 col-md-6'>
-                <div class="mb-5">
-                  <input type="text" class="form-control" id="" placeholder="Nombre*" />
+                <div className="mb-5">
+                  <input type="text" className="form-control" id="" placeholder="Nombre*" />
                 </div>
-                <div class="mb-5">
-                  <input type="text" class="form-control" id="" placeholder="Telefono*" />
+                <div className="mb-5">
+                  <input type="text" className="form-control" id="" placeholder="Telefono*" />
                 </div>
-                <div class="mb-5">
-                  <input type="email" class="form-control" id="" placeholder="email*" />
+                <div className="mb-5">
+                  <input type="email" className="form-control" id="" placeholder="email*" />
                 </div>
               </div>
               <div className='col-12 col-md-6'>
-                <div class="mb-3">
-                  <textarea class="form-control" id="" placeholder='Mensaje' rows="6"></textarea>
+                <div className="mb-3">
+                  <textarea className="form-control" id="" placeholder='Mensaje' rows="6"></textarea>
                 </div>
-                <div class="mb-5 submit">
-                  <button type="submit" class="btn ">Enviar</button>
+                <div className="mb-5 submit">
+                  <button type="submit" className="btn ">Enviar</button>
                 </div>
               </div>
             </div>

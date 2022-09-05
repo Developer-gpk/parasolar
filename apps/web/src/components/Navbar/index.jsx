@@ -12,8 +12,8 @@ export default function Navbar(){
                         <a className='navbar-brand'>
                             <Image src={Parasolar} alt="Logo de Parasolar" width="183" height="110" />
                         </a>
-                        <div class="navbar-nav ms-auto d-none d-sm-none d-md-block">
-                            <a class="nav-link active" href="#contacto">CONTACTO</a>
+                        <div className="navbar-nav ms-auto d-none d-sm-none d-md-block">
+                            <a className="nav-link active" href="#contacto">CONTACTO</a>
                         </div>
                     </div>
                 </nav>
