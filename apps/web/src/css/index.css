@@ -1,0 +1,75 @@
+#portada{
+
+}
+#portada .holder{
+    margin: 0 auto;
+    max-width: 1330px;
+    width: 100%;
+}
+#portada h3{
+    text-align: center;
+    padding: 0px 270px;
+    margin-bottom: -70px;
+    z-index: 2;
+    margin-top: 50px;
+    font-family: 'Supra-NormalExtended';
+    font-size: 24px;
+    color: #FFFFFF;
+}
+#contacto .holder{
+    margin: 0 auto;
+    max-width: 1330px;
+    width: 100%;
+}
+#contacto h3{
+    font-family: 'Supra-XBoldExtended';
+    font-size: 26px;
+    color: #F29105;
+}
+#contacto .form-control{
+    background: #000000;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #F29105;
+    color: #FFFFFF;
+    font-family: 'Supra-XLightExtended';
+    font-size: 12px;
+    box-shadow: none;
+}
+#contacto textarea.form-control{
+    border-top: 1px solid #F29105;
+    border-bottom: 1px solid #F29105;
+    margin-top: 29px;
+    height: 160px;
+}
+#contacto .form-control::placeholder{
+    color: #FFFFFF;
+}
+#contacto textarea.form-control::placeholder{
+    color: #FFFFFF;
+}
+#contacto .submit{
+    text-align: end;
+}
+#contacto .submit button{
+    background: #F29105;
+    color: #000000;
+    font-family: 'Supra-XLightExtended';
+    border-radius: 0;
+    width: 116px;
+    height: 35px;
+}
+@media (max-width: 767px){
+    #portada .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #portada h3{
+        font-size: 16px;
+        padding: 0px 20px;
+        margin-top: 0;
+    }
+    #contacto h3{
+        font-size: 20px;
+    }
+}
