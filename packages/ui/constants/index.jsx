@@ -7,5 +7,5 @@ export {
     Goplek,
     Parasolar,
     ParasolCover1,
-    ParasolCover2,
+    ParasolCover2
 }
