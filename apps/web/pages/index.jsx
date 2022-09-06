@@ -70,15 +70,15 @@ export default function Web() {
                     <div className='col-12 col-md-6'>
                       <div className="mb-5">
                         <Field as="input" type="text" name="nombre" id="nombre" className="form-control" placeholder="Nombre*" />
-                        {errors.nombre && touched.nombre ? (<div class="invalid-feedback">{errors.nombre}</div>) : null}
+                        {errors.nombre && touched.nombre ? (<div className="invalid-feedback">{errors.nombre}</div>) : null}
                       </div>
                       <div className="mb-5">
                         <Field as="input" type="text" name="telefono" id="telefono" className="form-control" placeholder="Telefono*" />
-                        {errors.telefono && touched.telefono ? (<div class="invalid-feedback">{errors.telefono}</div>) : null}
+                        {errors.telefono && touched.telefono ? (<div className="invalid-feedback">{errors.telefono}</div>) : null}
                       </div>
                       <div className="mb-5">
                         <Field as="input" type="email" name="email" id="email" className="form-control" placeholder="email*" />
-                        {errors.email && touched.email ? (<div class="invalid-feedback">{errors.email}</div>) : null}
+                        {errors.email && touched.email ? (<div className="invalid-feedback">{errors.email}</div>) : null}
                       </div>
                     </div>
                     <div className='col-12 col-md-6'>
