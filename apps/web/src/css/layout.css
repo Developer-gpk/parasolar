@@ -1,10 +1,11 @@
 .navigation{
     left: 0;
-    padding: 40px 20px;
+    padding: 35px 20px;
     top: 0;
     -webkit-transition: all 550ms ease-in-out;
     transition: all 550ms ease-in-out;
     width: 100%;
+    height: 180px;
 }
 .navigation .holder{
     margin: 0 auto;
@@ -18,6 +19,7 @@
     transform: translateX(-50%);
     left: 50%;
     position: absolute;
+    margin-top: 15px;
 }
 .navigation .navbar-nav .nav-link{
     color: #FFFFFF;
@@ -30,6 +32,9 @@
 .footer{
     background: #0B0B0B;
     padding: 40px 20px;
+    height: 265px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 .footer .holder{
     margin: 0 auto;
@@ -38,7 +43,7 @@
 }
 .footer h4{
     color: #F29105;
-    font-family: 'Supra-XLightExtended';
+    font-family: 'Supra-XBoldExtended';
     font-size: 14px;
 }
 .footer p{
@@ -56,7 +61,21 @@
 }
 @media (max-width: 767px){
     .navigation{
-        padding: 60px 20px;
+        padding: 35px 20px;
+    }
+    .navigation .navbar-brand{
+        margin-top: 15px;
+    }
+    .navigation .navbar-brand span{
+        width: 100px !important;
+        height: 60px !important;
+    }
+    .footer{
+        height: 330px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .footer h4{
         font-size: 12px;

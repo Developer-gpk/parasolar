@@ -8,13 +8,12 @@
 }
 #portada h3{
     text-align: center;
-    padding: 0px 270px;
-    margin-bottom: -70px;
+    margin-bottom: -116px;
     z-index: 2;
-    margin-top: 50px;
     font-family: 'Supra-NormalExtended';
     font-size: 24px;
     color: #FFFFFF;
+    width: 648px;
 }
 #contacto .holder{
     margin: 0 auto;
@@ -25,6 +24,9 @@
     font-family: 'Supra-XBoldExtended';
     font-size: 26px;
     color: #F29105;
+}
+#contacto form{
+    width: 928px;
 }
 #contacto .form-control{
     background: #000000;
@@ -54,10 +56,23 @@
 #contacto .submit button{
     background: #F29105;
     color: #000000;
-    font-family: 'Supra-XLightExtended';
+    font-family: 'Supra-XBoldExtended';
     border-radius: 0;
     width: 116px;
     height: 35px;
+}
+#contacto .submit button:hover{
+    background: #764602;
+    color: #FFFFFF;
+    border-color: transparent;
+}
+#contacto .finalizacion{
+    height: 288px;
+}
+#contacto .finalizacion h3{
+    font-family: 'Supra-NormalExtended';
+    color: #C7C6C6;
+    font-size: 24px;
 }
 @media (max-width: 767px){
     #portada .container-fluid{
@@ -68,6 +83,8 @@
         font-size: 16px;
         padding: 0px 20px;
         margin-top: 0;
+        margin-bottom: -30px;
+        margin-top: 10px;
     }
     #contacto h3{
         font-size: 20px;

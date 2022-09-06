@@ -27,3 +27,9 @@ body{
     font-style: normal;
     font-weight: lighter;
 }
+@media (max-width: 767px){
+    .outer-wrapper{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
